@@ -1,4 +1,4 @@
-body{background:rgb(22, 70, 107);
+body{background:rgb(26, 84, 129);
 }
 .animais{
     width: 419px;
@@ -10,7 +10,8 @@ body{background:rgb(22, 70, 107);
      width: 419px;
     height: 442px;
     border-radius: 12px;
-    margin-top: 12px;
+    margin-top: 20px;
+    gap: 200px;
  }
  img{
      height: 136px;
@@ -19,21 +20,27 @@ body{background:rgb(22, 70, 107);
  }
  .voleibol{
      display: flex;
-     justify-content: center; 
-     gap: 183px;
+     justify-content: space-around; 
+     margin-left: 85px;
+     margin-right: 85px;
      
  }
  .card{
      width: 551px;
      height: 725px;
      text-align: center;
-     background: #d9d9d9;
+     background: #000000;
      border-radius: 12px;
+     margin-left: 0px;
+     color: rgb(255, 251, 251) ;
+     padding: 20px;
 
  }
  .texto2{
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    ;
+    margin-right: 60px;
  }
+ 
